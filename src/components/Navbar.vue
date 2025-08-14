@@ -3,7 +3,16 @@
         <!-- Logo -->
         <div class="flex-shrink-0">
             <a href="/" @click="setActiveSection('/')" class="block">
-                <img src="/vite.svg" alt="Logo" class="h-10 transition-transform duration-300 hover:scale-105" />
+               
+                            <img 
+                src="../assets/logoQmalight.svg" 
+                class="h-20 transition-transform duration-300 hover:scale-105 dark:hidden" 
+                />
+                <img 
+                src="../assets/logoQmadark.svg" 
+                class="h-20 transition-transform duration-300 hover:scale-105 hidden dark:block" 
+                />
+
             </a>
         </div>
 
